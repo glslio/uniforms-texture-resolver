@@ -1,0 +1,17 @@
+{
+  "name": "uniforms-texture-resolver",
+  "version": "0.0.1",
+  "description": "Resolve textures of an uniforms object",
+  "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glslio/uniforms-texture-resolver"
+  },
+  "keywords": ["glsl", "uniforms", "loader"],
+  "dependencies": {
+    "lodash": "2.4.1",
+    "q": "1.0.x"
+  },
+  "license": "MIT"
+}
