@@ -56,7 +56,7 @@ UniformsTextureResolver.prototype = {
   resolveSync: function (uniforms) {
     var all = _.clone(uniforms);
     var textureUniforms = filterUniforms(all);
-    return _.extend(all, _.mapValues(textureUniforms, this.getTextureOrNull));
+    return _.extend(all, _.mapValues(textureUniforms, this.getTextureOrNull, this));
   }
 
 };
